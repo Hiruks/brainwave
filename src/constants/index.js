@@ -83,6 +83,12 @@ export const brainwaveServices = [
   "Seamless Integration",
 ];
 
+export const quizIndexItems = [
+  "Victories this year : 3",
+  "Current number of teams : 3",
+  "Quiz team members : 17",
+];
+
 export const brainwaveServicesIcons = [
   recording03,
   recording01,
@@ -94,19 +100,19 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
+    title: "Zero Gravity",
+    text: "Collaborative night camp organized by the Royal College Astronomical Society and the Sirimavo Bnandaranaike Vidyalaya Astronomical Society",
+    date: "July 2025",
+    status: "progress",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "Stellarium",
+    text: "Night sky and day time sun spot observation project by the Royal College Astronomical Society",
     date: "May 2023",
-    status: "progress",
+    status: "done",
     imageUrl: roadmap2,
   },
   {
@@ -143,6 +149,19 @@ export const collabContent = [
   {
     id: "2",
     title: "Top-notch Security",
+  },
+];
+
+export const visionMission = [
+  {
+    id: "0",
+    title: "Vision",
+    text: "To inspire and empower the next generation of explorers by cultivating a culture of curiosity, scientific rigor, and leadership in astronomy and space sciences — establishing Royal College as a national and global beacon of astronomical excellence.",
+  },
+  {
+    id: "1",
+    title: "Mission",
+    text: "We aim to nurture young minds through hands-on research, competitive training, and community engagement in astronomy. Our mission is to build a dynamic, digitally enhanced platform that enables learning, collaboration, and discovery — uniting students, educators, and enthusiasts in our collective journey beyond the stars.",
   },
 ];
 
@@ -244,16 +263,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Member Hub",
+    text: "A central portal to manage and explore the complete club membership — from personal profiles to quiz records and roles.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Train Smarter",
+    text: "Gain access to high-quality astronomy Olympiad material, lecture recordings, and tutoring resources — all in one place.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +280,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Compete Confidently",
+    text: "Easily track quiz teams, past competitions, and performance stats to prepare better and win smarter.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Quick Access",
+    text: "View your history, achievements, and club activity at a glance — personalized for each member.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +297,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Project Showcase",
+    text: "Discover the initiatives run by the society, complete with timelines, galleries, and member contributions.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Celebrate Excellence",
+    text: "See top quiz achievements auto-highlighted across the platform. Recognize success. Inspire the next win.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

@@ -1,4 +1,5 @@
 import brainwave from "./brainwave.svg";
+import astronaut from "./astronaut.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -23,6 +24,8 @@ import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
+import astro1 from "./hero/astro.jpg";
+import saturn from "./hero/saturn.png";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -100,6 +103,8 @@ export {
   background,
   curve,
   robot,
+  astro1,
+  saturn,
   heroBackground,
   curve1,
   curve2,
@@ -124,6 +129,7 @@ export {
   roadmap3,
   roadmap4,
   undone,
+  astronaut,
   notification1,
   notification2,
   notification3,
